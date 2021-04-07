@@ -11,7 +11,7 @@ const Home = (props) => {
                 <ul>
                     <li>
                         <NavLink exact to = '/programmer'>
-                            <img className = 'fade-in' src = {programmer} />
+                            <img className = 'fade-in' src = {programmer} alt = "programmer page link"/>
                         </NavLink>
                     </li>
                 </ul>
