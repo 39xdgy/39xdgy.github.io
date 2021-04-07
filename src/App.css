@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+	box-sizing: border-box;
+	background-color: #000000ea;
+	color: white;
+	text-transform: full-width;
+    overflow-x: hidden;
+    text-align: center;
+    font-size: 14pt;
+    
+}
+
+h1 {
+    font-weight: lighter;
+    padding: 0;
+    margin: 0;
+    bottom: -50px;
+    
+}
+
+p {
+    bottom: -150px;
+}
+
+a {
+    color: #ffffff;
+    font-size: 28px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 2vh 3vw 2vh 3vw;
+    bottom: -400px;
+    column-span: all;
+}
+
+.fade-in {
+  animation: fadeIn ease 20s;
+  -webkit-animation: fadeIn ease 20s;
+  -moz-animation: fadeIn ease 20s;
+  -o-animation: fadeIn ease 20s;
+  -ms-animation: fadeIn ease 20s;
+  }
