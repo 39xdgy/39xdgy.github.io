@@ -8,7 +8,7 @@ const Home = (props) => {
     return (
         <dev>
             <nav>
-                <ul>
+                <ul className = "home_page_list">
                     <li>
                         <NavLink exact to = '/programmer'>
                             <img className = 'fade-in' src = {programmer} alt = "programmer page link"/>

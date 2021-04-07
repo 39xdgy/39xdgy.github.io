@@ -78,3 +78,7 @@ a {
   -o-animation: fadeIn ease 20s;
   -ms-animation: fadeIn ease 20s;
   }
+
+  .home_page_list{
+    list-style: none;
+  }
