@@ -7,7 +7,7 @@ const Home = (props) => {
     return (
         <dev>
             <h2 class = "animate__animated animate__fadeIn animate__delay-1s">This is a profile for Jiashu Wang</h2>
-            <h3 class = "animate__animated animate__fadeIn animate__delay-2s">Click on the part that you want to know me about</h3>
+            <h3 class = "animate__animated animate__fadeIn animate__delay-2s">Click on the part that you want to know about me</h3>
             <nav>
                 <ul className = "home_page_list">
                     <li>
