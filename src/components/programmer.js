@@ -11,7 +11,14 @@ const programmer_page = (props) => {
             <p>Neural network, SQL & NoSQL database, Agile development, Full Stack development, Software development</p>
 
             <h2>Skills and Tools that I know</h2>
-            <p>React, Vue, typescript, AJAX, Handlebar<br/> MongoDB, MySQL<br/> Keras, Tensorflow<br/> git, SVN, ssh<br/> unix system<br/>Unity, rumpy, RPG maker<br/>Kanban Board, Trello<br/> arduino and Raspberry Pi</p>
+            <p>React, Vue, typescript, AJAX, Handlebar
+                <br/> MongoDB, MySQL
+                <br/> Keras, Tensorflow
+                <br/> git, SVN, ssh
+                <br/> unix system
+                <br/>Unity, renpy, RPG maker
+                <br/>Kanban Board, Trello
+                <br/> arduino and Raspberry Pi</p>
         
             <h2>Things/topics I want to learn in the future</h2>
             <p>Golang, pytorch, cybersecurity, robotics, quantum computing and more </p>
