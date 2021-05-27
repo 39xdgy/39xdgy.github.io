@@ -8,7 +8,7 @@ import about_me_page from './about_me'
 function App() {
   return (
     <div className="App">
-      <h1 class = "animate__animated animate__fadeIn">Jiashu Wang Profile</h1>
+      
 
         <Router>
           <Route exact path = '/' component = {home} />
