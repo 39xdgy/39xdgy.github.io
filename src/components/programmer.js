@@ -13,7 +13,7 @@ const programmer_page = (props) => {
             <h2>Skills and Tools that I know</h2>
             <p>React, Vue, typescript, AJAX, Handlebar
                 <br/> MongoDB, MySQL
-                <br/> Keras, Tensorflow
+                <br/> Keras, Tensorflow, Pytorch
                 <br/> git, SVN, ssh
                 <br/> unix system
                 <br/>Unity, renpy, RPG maker

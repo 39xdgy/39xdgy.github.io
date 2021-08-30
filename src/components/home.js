@@ -5,16 +5,6 @@ import '../App.css';
 const Home = (props) => {
     const zoomOutRef = useRef()
 
-    function fadeOut() {
-        
-        zoomOutRef.current.onClick = function() {
-            console.log(zoomOutRef.current)
-            zoomOutRef.current.fadeOut = "true"
-            
-        }
-    }
-
-
     return (
         <div ref = {zoomOutRef} className = "home">
 
@@ -25,17 +15,12 @@ const Home = (props) => {
             <nav>
                 <ul className = "home_page_list">
                     <li>
-                        <NavLink onClick = {fadeOut} className = "animate__animated animate__fadeIn animate__delay-1s" exact to = '/programmer'>
+                        <NavLink exact to = '/programmer'>
                         <h1>Programmer</h1>
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink onClick = {fadeOut} className = "link_about_me animate__animated animate__fadeIn animate__delay-2s" exact to = '/about_me'>
-                            <h1>Hobby and what I love</h1>
-                        </NavLink>
-                    </li>
-                    <li>
-                        <a className = "animate__animated animate__fadeIn animate__delay-3s " href = 'https://github.com/39xdgy' target = "_blank">
+                        <a href = 'https://github.com/39xdgy' target = "_blank">
                             <h1>Github</h1>
                         </a>
                     </li>
