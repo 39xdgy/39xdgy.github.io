@@ -8,10 +8,10 @@ const Home = (props) => {
     return (
         <div ref = {zoomOutRef} className = "home">
 
-            <h1 className = "animate__animated animate__fadeIn">Jiashu Wang Profile</h1>
+            <h1>Jiashu Wang Profile</h1>
 
-            <h2 className = "animate__animated animate__fadeIn ">This is a profile for Jiashu Wang</h2>
-            <h3 className = "animate__animated animate__fadeIn ">Click on the part that you want to know about me</h3>
+            <h2>This is a profile for Jiashu Wang</h2>
+            <h3>Click on the part that you want to know about me</h3>
             <nav>
                 <ul className = "home_page_list">
                     <li>
